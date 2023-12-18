@@ -30,8 +30,6 @@ For more training and experiment result, to see our [pdf](https://github.com/oli
 - **Solver Configuration**: Fine-tuning typically requires a lower learning rate than training from scratch. Adjust the parameters in your solver prototxt accordingly.
 - **Iterations and Display Interval**: These parameters control the duration of the training and how often you see updates. They may need to be adjusted based on the size of your dataset and the performance of your model.
 - **Hardware Considerations**: Training deep learning models, especially on large datasets like KITTI, can be computationally intensive. Ensure you have appropriate hardware .
-
-### Additional Considerations:
 - **Backup and Monitor**: Regularly save your model during training and monitor its performance on a validation set.
 - **Compatibility**: Ensure that your version of Caffe supports SSD and the layers used in the MobileNet-SSD architecture.
 
