@@ -20,7 +20,7 @@ To fine-tune a pre-trained MobileNet-SSD model on the KITTI dataset using Caffe,
 - **Solver Prototxt (`solver.prototxt`)**: This file contains settings for the training process (like learning rate, momentum, weight decay, etc.). Adjust these parameters as needed for fine-tuning.
 
 ### 3. Training and Result
-
+For more training and experiment result, to see our pdf.
 
 ### Important Notes:
 - **Dataset Preparation**: Ensure your KITTI dataset is correctly formatted and the paths in the training prototxt file are correctly set.
