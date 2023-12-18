@@ -33,7 +33,6 @@ For more training and experiment result, to see our [pdf](https://github.com/oli
 
 ### Additional Considerations:
 - **Backup and Monitor**: Regularly save your model during training and monitor its performance on a validation set.
-- **Hyperparameter Tuning**: You might need to experiment with different hyperparameters to get the best results.
 - **Compatibility**: Ensure that your version of Caffe supports SSD and the layers used in the MobileNet-SSD architecture.
 
 This script provides a starting point for fine-tuning your pre-trained MobileNet-SSD model on the KITTI dataset. Depending on your specific setup and requirements, you may need to make additional adjustments or optimizations.
