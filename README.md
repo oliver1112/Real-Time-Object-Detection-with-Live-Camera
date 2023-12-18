@@ -2,7 +2,7 @@
 Final project for deep learning course.
 
 ## Overview
-This repo shows how to use Intel RealSense cameras with existing Deep Neural Network algorithms. The demo is similar to [MobileNet Single-Shot Detector](https://github.com/opencv/opencv/blob/3.4.0/samples/dnn/ssd_mobilenet_object_detection.cpp) provided with `opencv`. We modify it to work with Intel RealSense cameras and take advantage of depth data (in a very basic way). 
+This repo shows how to use Intel RealSense cameras with existing Deep Neural Network algorithms. The demo is similar to [MobileNet Single-Shot Detector](https://github.com/opencv/opencv/blob/3.4.0/samples/dnn/ssd_mobilenet_object_detection.cpp) provided with `opencv`. We modify it to work with Intel RealSense cameras and take advantage of depth data. 
 
 
 The demo will load existing [Caffe model](https://github.com/chuanqi305/MobileNet-SSD) and use it to classify objects within the RGB image. Once object is detected, the demo will calculate approximate distance to the object using the depth data
@@ -20,7 +20,7 @@ To fine-tune a pre-trained MobileNet-SSD model on the KITTI dataset using Caffe,
 - **Solver Prototxt (`solver.prototxt`)**: This file contains settings for the training process (like learning rate, momentum, weight decay, etc.). Adjust these parameters as needed for fine-tuning.
 
 ### 3. Training and Result
-For more training and experiment result, to see our pdf.
+For more training and experiment result, to see our [pdf](https://github.com/oliver1112/Real-Time-Object-Detection-with-Live-Camera/blob/main/Real-Time%20Object%20Detection%20with%20Live%20Camera%20.pdf).
 
 ### Important Notes:
 - **Dataset Preparation**: Ensure your KITTI dataset is correctly formatted and the paths in the training prototxt file are correctly set.
