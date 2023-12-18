@@ -10,6 +10,9 @@ The demo will load existing [Caffe model](https://github.com/chuanqi305/MobileNe
 
 To fine-tune a pre-trained MobileNet-SSD model on the KITTI dataset using Caffe, you'll need to follow a series of steps. This involves preparing the KITTI dataset, modifying the model and solver configuration files to suit the new dataset, and then running the training process. Here's a step-by-step guide along with a code template:
 
+## Demo
+![Demo](https://github.com/oliver1112/Real-Time-Object-Detection-with-Live-Camera/blob/main/demo/Screencast%20from%2012-15-2023%2011_54_58%20PM.gif)
+
 ## Instructions
 ### 1. Prepare the Dataset
 - Convert the KITTI dataset annotations into a format compatible with SSD, usually the VOC format.
